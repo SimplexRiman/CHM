@@ -1,0 +1,62 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# === Кеши и данные инструментов ===
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# === Данные и артефакты проекта ===
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.task
+
+# видео/аудио исходники (если не хочешь их в репо)
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+
+# === IDE / редакторы ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === ОС ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Логи и временные файлы ===
+*.log
+*.tmp
+*.bak
